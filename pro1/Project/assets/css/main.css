@@ -62,9 +62,12 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  background-color: var(--background-color);
+ background-color: #059652;
   font-family: var(--default-font);
+  gap:20px
+  
 }
+
 
 a {
   color: var(--accent-color);
@@ -608,7 +611,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+
   scroll-margin-top: 80px;
   overflow: clip;
 }
@@ -638,6 +641,12 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /*--------------------------------------------------------------
