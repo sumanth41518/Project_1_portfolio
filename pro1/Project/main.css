@@ -1568,3 +1568,7 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
+
+.card-body{
+  border: none;
+}
